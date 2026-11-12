@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather Control</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <div> class="logo"</div>
+        <span>🌦️</span>Weather Control
+    </header></div>
+
+    <nav>
+        <a href="#inicio">Inicio</a>
+        <a href="#monitoramento">Monitoramento</a>
+        <a href="simulacao">simulacao</a>
+        <a href="sobre">sobre</a>
+    </nav>
+</header>
+
+<section class="hero" id="Inicio"
+<div>
+
+</div>
+    <h1>Weather Control</h1>
+    <h2>Central de Controle Climatico</h2>
+
+    <p>
+        Monitore, analise e simule condicoes climaticas em uma plataforma inteligente e moderna. 
+    </p>
+
+    <a href="#monitoramento" class="botao">
+        Acessar painel
+    </a>
+</div>
+<section>
+
+
+</section class= "Monitoramento" id="Monitoramento">
+    
+    
+<h2>Monitoramento Climatico</h2>
+<p> class="substituto">
+Indicadores das condicoes climaticas simuladas 
+</p>
+
+<div class="cards">
+
+    <div class="cards">
+        <span>🌡️</span>
+        <h3>temperatura</h3>
+        <p class="valor">27°C</p>
+        <small>Temperatura ambiente</small>
+    </div>
+
+    <div class="card">
+        <span>💧</span>
+        <h3>Umidade</h3>
+        <p class="valor">65%</p>
+        <small>Umidade relativa ao ar</small>
+    </div>
+
+    <div class="card">
+        <span>🌧️</span>
+        <h3>probabilidade de chuva</h3>
+        <p class="valor">40%</p>
+        <small>Chance de precipitacao</small>
+    </div>
+
+</div>
+</section>
+
+
+<section class="simulacao" id="simulacao">
+
+    <h2>simulador Climatico</h2>
+
+    <p>
+    verao
+    </p>
+
+    <div class="simulador-box">
+
+        <label for="clima">verao:</label>
+
+        <select id="clima">
+            <option value="sol">Ensolarado</option>
+            <option value="chuva">Chuvoso</option>
+            <option value="nublado">Nublado</option>
+            <option value="tempestade">tempestade</option>
+        </select>
+
+        <button onclick="simularClima()"
+        Simular clima 
+        <button>
+
+        </button>
+
+            <div id="resultado">
+                <h3>☀️ Clima atual da simulacao</h3>
+                <p>Selecione uma condicao climatica</p>
+            </div>
+
+            <div></div>
+
+        </section>
+
+        <section class="sobre" id="sobre">
+            <h2>sobre o projeto</h2>
+
+            <p>
+                O weather Control e um projeto de central de controle Climatico desenvolvido para demonstrar como a tecnologia pode auxiliar no monitoramento e na simulacao de condicoes metereologicas.
+
+                A plataforma apresenta indicadores e simulacoes que ajudam a compreender as mudancas do clima.
+            </p>
+        </section>
+
+        <footer>
+            <p>@ 2026 Weather Control / Central de controle Climatico</p>
+            <p>Projeto desenvolvido com HTML, CSS e JavaScript</p>
+            <p> class="dupla">desenvolvido por: Pietro de F.G. Montagnini e Pedro Nicoletti</p>
+        </footer>
+
+        <script>
+            function: simularClima() 
+
+                const clima = document.getElementById("clima").value;
+                const resultado = document.getElementById("resultado");
+
+                if (clima === "sol") 
+                    resultado.innerHTML =
+                    <h3> ☀️ Ensolarado</h3>
+                    
+                    
+                    
